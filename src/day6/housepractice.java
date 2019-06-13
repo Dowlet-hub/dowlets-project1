@@ -1,0 +1,34 @@
+package day6;
+
+import java.util.Scanner;
+
+public class housepractice {
+
+	public static void main(String[] args) {
+
+		
+	Scanner input = new Scanner(System.in);
+	
+	System.out.println("Enter your first name");
+    String firstName = input.next();
+	System.out.println("Your first name is " +firstName);
+    
+	System.out.println("Enter your last name");
+	String lastName = input.next();
+    System.out.println("Your last name is " +lastName);
+	
+    System.out.println("Your full name is " + firstName+ " " +lastName);
+    System.out.println("nice to meet you "+firstName+" "+lastName);
+    
+    
+    
+    
+	
+	
+	
+        
+        
+	
+	}
+ 
+}
